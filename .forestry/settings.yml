@@ -15,13 +15,14 @@ sections:
   templates:
   - blog-post
 - type: document
-  path: content/data/authors.yaml
-  label: Author List
-- type: document
   path: content/data/info.json
   label: Info Page
 - type: heading
   label: General Config
+- type: document
+  path: contact-me.json
+  label: Contact Me
+  match: "**/*"
 - type: document
   path: config.json
   label: Site Info
