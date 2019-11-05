@@ -22,7 +22,6 @@ sections:
 - type: document
   path: contact-me.json
   label: Contact Me
-  match: "**/*"
 - type: document
   path: config.json
   label: Site Info
