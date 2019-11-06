@@ -13,7 +13,8 @@
     "start": "yarn dev",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\"",
-    "forestry-preview": "gatsby develop -p 8080 -H 0.0.0.0"
+    "forestry-preview": "gatsby develop -p 8080 -H 0.0.0.0",
+    "deploy:github": "npm run build && node ./scripts/deploy-github"
   },
   "dependencies": {
     "gatsby": "^2.13.9",
@@ -34,6 +35,7 @@
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
+    "gh-pages": "^2.1.1",
     "prettier": "^1.18.2"
   },
   "keywords": [
