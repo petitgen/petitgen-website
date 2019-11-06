@@ -5,7 +5,7 @@ ghpages.publish(
   'public',
   {
     branch: 'master',
-    repo: 'git@github.com:petitgen/petitgen.github.io.git',
+    repo: 'https://' + process.env.GH_TOKEN + '@github.com/petitgen/petitgen.github.io.git',
   },
   () => {
     console.log('Deploy Complete!')
