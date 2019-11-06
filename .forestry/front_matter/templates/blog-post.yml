@@ -5,19 +5,6 @@ fields:
 - type: text
   name: title
   label: title
-- name: author
-  type: select
-  default: ''
-  config:
-    required: true
-    options: []
-    source:
-      type: documents
-      section: author-list
-      file: content/data/authors.yaml
-      path: authors
-  label: author
-  description: Enter author of post
 - name: date
   type: datetime
   label: date
@@ -36,8 +23,4 @@ fields:
   description: Enter hero image for blog post here
   default: "/content/images/sarah-dorweiler-9Z1KRIfpBTM-unsplash.jpg"
 pages:
-- content/posts/on-the-geneology-of-morals.md
-- content/posts/an-essay-on-walking.md
 - content/posts/sunflower-sutra.md
-- content/posts/song-of-myself.md
-- content/posts/ne-te-quaesiveris-extra.md
