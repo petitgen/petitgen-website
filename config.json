@@ -1,5 +1,11 @@
 {
   "title": "Petitgen's Website",
+  "author": "Sebastien MATHIEU",
   "description": "",
-  "repository_url": "https://github.com/petitgen/petitgen-website"
+  "primary_color": "#493cd6",
+  "contact": "Sebastien MATHIEU <sebastien.mathieu.82@gmail.com>",
+  "repository_url": "https://github.com/petitgen/petitgen-website",
+  "icon": "content/assets/favicon.png",
+  "siteUrl": "https://www.petitgen.com/",
+  "about": "It's About me"
 }
