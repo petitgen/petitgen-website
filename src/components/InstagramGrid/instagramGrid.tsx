@@ -8,7 +8,7 @@ import {
   MetaItem,
   MetaIcon,
   MetaText,
-} from './InstagramGrid.style';
+} from './instagramGrid.style';
 import { IoIosHeart, IoIosChatbubbles } from 'react-icons/io';
 
 type InstagramGridProps = {
