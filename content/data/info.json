@@ -1,10 +1,10 @@
 {
   "description": "<p>My name is Sebastien and I create this website to share some of my work.</p>",
-  "cta": "<p>My name is Sebastien and I create this website to share some of my work.</p>",
+  "cta": "<p>Please give me money</p>",
   "contact": {
-    "email": "info@forestry.io",
-    "twitter_handle": "forestryio",
-    "github_handle": "forestryio"
+    "email": "sebastien.mathieu.82@gmail.com",
+    "twitter_handle": "petitgen",
+    "github_handle": "petitgen"
   },
   "background_color": "#B1BCBC"
 }
