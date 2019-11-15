@@ -19,7 +19,7 @@ fields:
   type: file
   config:
     maxSize: '10'
-  label: hero image
+  label: Cover Image
   description: Enter hero image for blog post here
   default: "/content/images/sarah-dorweiler-9Z1KRIfpBTM-unsplash.jpg"
 pages:
