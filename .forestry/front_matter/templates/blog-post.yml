@@ -15,7 +15,7 @@ fields:
     time_format: 
     display_utc: false
   default: now
-- name: hero_image
+- name: cover
   type: file
   config:
     maxSize: '10'
