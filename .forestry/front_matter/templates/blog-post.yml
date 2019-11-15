@@ -20,8 +20,5 @@ fields:
   config:
     maxSize: '10'
   label: Cover Image
-  description: Enter hero image for blog post here
+  description: Enter cover image for blog post here
   default: "/content/images/sarah-dorweiler-9Z1KRIfpBTM-unsplash.jpg"
-pages:
-- content/posts/hi-sarjan.md
-- content/posts/sunflower-sutra.md
