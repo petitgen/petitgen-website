@@ -40,7 +40,7 @@ const Intro: React.FunctionComponent<IntroProps> = props => {
     query {
       avatar: file(absolutePath: { regex: "/author.jpg/" }) {
         childImageSharp {
-          fluid(maxWidth: 210, maxHeight: 210, quality: 90) {
+          fluid(maxWidth: 500, maxHeight: 500, quality: 90) {
             ...GatsbyImageSharpFluid_withWebp_tracedSVG
           }
         }

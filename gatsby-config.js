@@ -116,6 +116,22 @@ module.exports = {
       },
     },
     {
+    resolve: `gatsby-source-airtable`,
+      options: {
+        apiKey: `keyFPWlSVe0m0HGrR`, // may instead specify via env, see below
+        tables: [
+          {
+            baseId: `app9z7Vut3iHqwY62`,
+            tableName: `Stories`,
+            // tableView: `YOUR_TABLE_VIEW_NAME`, // optional
+            // queryName: `OPTIONAL_NAME_TO_IDENTIFY_TABLE`, // optional
+            // mapping: { `CASE_SENSITIVE_COLUMN_NAME`: `VALUE_FORMAT` }, // optional, e.g. "text/markdown", "fileNode"
+            // tableLinks: [`CASE`, `SENSITIVE`, `COLUMN`, `NAMES`] // optional, for deep linking to records across tables.
+          }
+        ]
+      }
+    },
+    {
       resolve: `gatsby-transformer-sharp`,
     },
     {

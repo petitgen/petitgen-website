@@ -22,10 +22,10 @@ export const IntroWrapper = styled.div`
 `
 
 export const IntroImage = styled.div`
-  width: 270px;
-  height: 270px;
+  width: 300px;
+  height: 300px;
   padding: 30px;
-  border-radius: 50%;
+  border-radius: 10%;
   margin: 0 auto;
   border: 1px solid ${themeGet("colors.lightBorderColor", "#ededed")};
   margin-bottom: 30px;
@@ -46,7 +46,7 @@ export const IntroImage = styled.div`
     width: 100%;
     height: auto;
     display: block;
-    border-radius: 50%;
+    border-radius: 10%;
   }
 `
 

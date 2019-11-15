@@ -12,23 +12,24 @@ export const NavbarWrapper = styled.div`
   align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid ${themeGet("borderColor", "#DBDBDB")};
-  padding: 30px 75px;
+  padding: 0px 75px;
   background-color: #fff;
   transition: 0.25s ease-in-out;
   @media (max-width: 1400px) {
-    padding: 25px 45px;
+    padding: 0px 45px;
   }
   @media (max-width: 990px) {
-    padding: 15px 25px;
+    padding: 0px 25px;
   }
   @media (max-width: 575px) {
-    padding: 3px 15px;
+    padding: 0px 15px;
   }
 `
 
 export const Logo = styled.div`
   margin-right: 50px;
   flex-shrink: 0;
+  max-width: 90px;
   @media (max-width: 990px) {
     margin: 0 25px;
   }

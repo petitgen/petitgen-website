@@ -8,6 +8,7 @@ exports.createPages = ({ graphql, actions }) => {
   const blogPost = path.resolve(`./src/templates/blog-post.tsx`)
   const blogList = path.resolve(`./src/templates/blog-list.tsx`)
   const tagTemplate = path.resolve(`./src/templates/tags.tsx`)
+  const airtableTemplate = path.resolve(`./src/templates/airtable.tsx`)
 
   return graphql(
     `
@@ -91,6 +92,11 @@ exports.createPages = ({ graphql, actions }) => {
           tag,
         },
       })
+    })
+
+    createPage({
+      path: `/airtable/`,
+      component: airtableTemplate,
     })
 
     return null

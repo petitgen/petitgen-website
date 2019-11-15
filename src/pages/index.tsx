@@ -10,7 +10,7 @@ const PersonalBlogPage = (props: any) => {
   return (
     <Layout>
       <SEO
-        title="Personal Blog"
+        title="Home"
         description={data.site.siteMetadata.description}
       />
       <PersonalBlog />
@@ -42,7 +42,7 @@ export const pageQuery = graphql`
             tags
             cover {
               childImageSharp {
-                fluid(maxWidth: 1170, quality: 90) {
+                fluid(maxWidth: 3000, quality: 90) {
                   ...GatsbyImageSharpFluid_withWebp_tracedSVG
                 }
               }
