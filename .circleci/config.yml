@@ -46,6 +46,6 @@ workflows:
       - build:
           filters:
             tags:
-              ignore: /published/
+              only: /published/
             branches:
               ignore: /.*/
