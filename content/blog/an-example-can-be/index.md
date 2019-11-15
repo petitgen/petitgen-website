@@ -1,7 +1,7 @@
 ---
 title: An example can be illustrative
 date: '2019-03-06T23:46:37.121Z'
-cover: './preview.jpg'
+cover: '/content/images/sharon-mccutcheon-Th_WZMUPnO4-unsplash.jpg'
 tags: ['markdown', 'test', 'tips']
 ---
 

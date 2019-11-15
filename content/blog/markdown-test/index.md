@@ -2,7 +2,7 @@
 title: This is markdown unity test!
 date: '2019-04-22'
 tags: ['markdown', 'test', 'unity']
-cover: './preview-1.jpg'
+cover: '/content/images/sharon-mccutcheon-Th_WZMUPnO4-unsplash.jpg'
 ---
 
 Documentation stored with source files shares the same permissions.

@@ -81,7 +81,9 @@ const BlogPostTemplate = (props: any) => {
             </TwitterShareButton>
             <PinterestShareButton
               url={shareUrl}
-              media={urljoin(siteUrl, post.frontmatter.cover.publicURL)}
+              media={urljoin(siteUrl, post.frontmatter.cover == null
+                      ? ''
+                      : post.frontmatter.cover.publicURL)}
             >
               <IoLogoPinterest />
             </PinterestShareButton>

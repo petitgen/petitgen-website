@@ -76,11 +76,13 @@ module.exports = {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
+          "gatsby-remark-relative-images",
+          "gatsby-remark-normalize-paths",
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 590,
-              linkImagesToOriginal: true,
+              maxWidth: 1000,
+              linkImagesToOriginal: false,
             },
           },
           {

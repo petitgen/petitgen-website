@@ -1,6 +1,6 @@
 ---
 date: 2019-11-06
-cover: "../../images/sonja-punz-N47B_zibNGo-unsplash.jpg"
+cover: "/content/images/sonja-punz-N47B_zibNGo-unsplash.jpg"
 title: Hi Sarjan
 tags: ['friend']
 ---
