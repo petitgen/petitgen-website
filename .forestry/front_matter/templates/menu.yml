@@ -8,3 +8,5 @@ fields:
   config:
     required: false
   label: Title
+pages:
+- content/data/menu.json
