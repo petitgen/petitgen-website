@@ -2,18 +2,23 @@
 label: Blog Post
 hide_body: false
 fields:
+- name: draft
+  type: boolean
+  label: Draft
+  description: If draft the page won't be published
+  default: false
 - type: text
   name: title
-  label: title
+  label: Title
 - name: date
   type: datetime
-  label: date
+  label: Date
   description: Date post was created
   config:
     required: false
     date_format: 
     time_format: 
-    display_utc: false
+    display_utc: true
   default: now
 - name: cover
   type: file
