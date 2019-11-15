@@ -7,7 +7,7 @@ sections:
 - type: heading
   label: Content
 - type: document
-  path: content/data/menu.json
+  path: content/menu/*
   label: Menu
 - type: directory
   path: content/blog
