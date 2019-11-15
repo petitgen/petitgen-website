@@ -22,3 +22,7 @@ fields:
   label: Cover Image
   description: Enter cover image for blog post here
   default: "/content/images/sarah-dorweiler-9Z1KRIfpBTM-unsplash.jpg"
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
