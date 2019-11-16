@@ -7,7 +7,7 @@ sections:
 - type: heading
   label: Content
 - type: document
-  path: content/menu/*
+  path: content/data/menu.yaml
   label: Menu
 - type: directory
   path: content/blog
