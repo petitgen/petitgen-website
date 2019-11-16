@@ -26,6 +26,9 @@ sections:
   path: contact-me.json
   label: Contact Me
 - type: document
+  path: content/data/menu.yaml
+  label: Menu List
+- type: document
   path: config.json
   label: Site Info
 upload_dir: content/images
