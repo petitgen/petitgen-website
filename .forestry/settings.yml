@@ -6,9 +6,6 @@ webhook_url:
 sections:
 - type: heading
   label: Content
-- type: document
-  path: content/data/menu.yaml
-  label: Menu
 - type: directory
   path: content/blog
   label: Blog Posts

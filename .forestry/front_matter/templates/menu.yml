@@ -1,0 +1,7 @@
+---
+label: Menu
+hide_body: true
+fields:
+- type: list
+  name: menus
+  label: menus
