@@ -25,6 +25,8 @@ sections:
 - type: document
   path: content/data/menu.yaml
   label: Menu List
+  templates:
+  - menu
 - type: document
   path: config.json
   label: Site Info
