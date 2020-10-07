@@ -1,0 +1,25 @@
+{
+  "name": "Sebastien MATHIEU",
+  "title": "Full Stack Developer",
+  "description": "",
+  "thumbnail": "sebastien-mathieu.png",
+  "social": [
+    {
+      "name": "Github",
+      "url": "https://github.com/petitgen"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/petitgen"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/petitgen/"
+    },
+    {
+      "name": "Website",
+      "url": "https://petitgen.com"
+    }
+  ],
+  "skills": ["PHP", "Node.js", "Symfony", "Magento", "Mysql", "AWS"]
+}
